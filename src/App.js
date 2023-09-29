@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Dashboard from "./dashboard/Dashboard";
-import Sidebar from "./sidebar/Sidebar";
+import Sidebar from "./dashboard/sidebar/Sidebar";
 import products from "./db/data";
 import { useState } from "react";
-import Card from "./dashboard/Card";
+import Card from "./dashboard/mainboard/Card";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);

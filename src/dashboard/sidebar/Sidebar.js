@@ -1,7 +1,7 @@
 import React from 'react'
-import Category from './components/Category'
-import Price from './components/Price'
-import Colors from './components/Colors'
+import Category from './Category'
+import Price from './Price'
+import Colors from './Colors'
 
 const Sidebar = ({handleChange}) => {
   return (

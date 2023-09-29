@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "./navigation/Navigation";
-import Recommended from "./recommended/Recommended";
-import Products from "./products/Products";
+import Navigation from "./mainboard/Navigation";
+import Recommended from "./mainboard/Recommended";
+import Products from "./mainboard/Products";
 
 const Dashboard = ({ handleInputChange, query,handleClick,result }) => {
   return (
