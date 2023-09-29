@@ -68,12 +68,11 @@ function App() {
   }
 
   const result = filteredData(products, selectedCategory, query);
-  console.log(result,"result");
+  console.log(result, "result");
   return (
     <div className="d-flex">
-      <Sidebar className="col-2" handleChange={handleChange} />
+      <Sidebar handleChange={handleChange} />
       <Dashboard
-        className="col-6"
         query={query}
         handleInputChange={handleInputChange}
         handleClick={handleClick}

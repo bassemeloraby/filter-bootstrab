@@ -5,7 +5,7 @@ import Colors from './Colors'
 
 const Sidebar = ({handleChange}) => {
   return (
-    <div style={{backgroundColor:"yellow",width:"20%"}}>
+    <div style={{backgroundColor:""}} className='container col-2'>
     <Category handleChange={handleChange}/>
     <Price handleChange={handleChange}/>
     <Colors handleChange={handleChange}/>

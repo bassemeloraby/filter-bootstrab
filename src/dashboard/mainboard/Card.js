@@ -2,7 +2,7 @@ import React from 'react'
 import { BsFillBagFill } from "react-icons/bs";
 const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
   return (
-    <section className="card">
+    <section className="card col-3 m-2" style={{width: "18rem"}}>
         <img src={img} alt={title} className="card-img" />
         <div className="card-details">
           <h3 className="card-title">{title}</h3>

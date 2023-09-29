@@ -5,7 +5,7 @@ import Products from "./mainboard/Products";
 
 const Dashboard = ({ handleInputChange, query,handleClick,result }) => {
   return (
-    <div style={{ backgroundColor: "lightblue", width: "80%" }}>
+    <div style={{ backgroundColor: "lightblue"}} className="container">
     <Navigation handleInputChange={handleInputChange} query={query}/>
     <Recommended handleClick={handleClick}/>
     <Products result={result}/>

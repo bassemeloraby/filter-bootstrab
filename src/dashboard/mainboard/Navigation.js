@@ -7,7 +7,7 @@ const Navigation = ({ handleInputChange, query }) => {
     <div>
     <Nav>
     
-    <InputGroup className="mb-3">
+    <InputGroup className="mb-3 mt-2">
         
         <Form.Control
         type="text"
